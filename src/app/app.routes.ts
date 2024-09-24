@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { MainLayoutComponent } from './components/layout/main-layout-component/main-layout-component.component';
 import { HomeComponent } from './pages/home/home.component';
+import { HomeworkComponent } from './pages/homework/homework.component';
 
 export const routes: Routes = [
   //   { path: '', redirectTo: 'auth/login', pathMatch: 'full' },
@@ -14,7 +15,7 @@ export const routes: Routes = [
     component: MainLayoutComponent, // Layout chính có header và footer
     children: [
       { path: '', component: HomeComponent },
-      //   { path: 'users', component: AccountManagementPageComponent },
+      { path: 'homework', component: HomeworkComponent },
       //   { path: 'codes', component: CodeManagementPageComponent },
       //   { path: 'statistical', component: StatisticalComponent },
     ],

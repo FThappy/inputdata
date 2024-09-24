@@ -1,1 +1,39 @@
-<p>header works!</p>
+<header class="container-header">
+    <div class="content-container">
+      <div class="search-container">
+        <i class="pi pi-search        " style="font-size: 1rem; cursor: pointer;"></i>
+        <!-- <input class="input-search" type="text" placeholder="Search for..." /> -->
+      </div>
+      <div class="user-container">
+        <div class="icon-container">
+            <i class="pi pi-comment            " style="font-size: 1rem; cursor: pointer;"></i>
+
+          <div class="badge">0</div>
+        </div>
+        <div class="icon-container">
+            <i class="pi pi-bell" style="font-size: 1rem; cursor: pointer;"></i>
+          <div class="badge">0</div>
+        </div>
+        <div class="card flex justify-content-center">
+            <button (click)="op.toggle($event)" class="p-button bg-white p-0 m-0 rounded-full outline-none border-none w-[36px] h-[36px] active:border-none focus:border-none">
+                <img
+          src="https://github.com/shadcn.png"
+          alt="User Avatar"
+          class="w-full h-full rounded-full"
+        />
+              </button>            <p-overlayPanel #op>
+                <div class="box-menu" >
+                    <div class="box-menu-item" >
+                        <i class="pi pi-sign-out
+                        " style="font-size: 1rem; cursor: pointer;"></i>
+                      Sign out
+                    </div>
+                  </div>
+            </p-overlayPanel>
+        </div>
+
+      
+      </div>
+    </div>
+  </header>
+  

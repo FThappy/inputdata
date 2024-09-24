@@ -13,61 +13,61 @@ import { RouterLink } from '@angular/router';
 export class SideBarComponent {
   menuItems = [
     {
-      icon: 'home',
+      icon: 'pi-home',
       label: 'Trang Chủ',
-      href: '/app',
+      href: '/',
     },
     {
-      icon: 'people',
-      label: 'Tài khoản',
-      href: '/app/users',
+      icon: 'pi-book',
+      label: 'Bài tập',
+      href: '/homework',
     },
     {
-      icon: 'collections_bookmark',
-      label: 'Danh mục',
-      href: '/list/teachers',
+      icon: 'pi-file-edit',
+      label: 'Đề thi',
+      href: '/exam',
     },
-    {
-      icon: 'bookmarks',
-      label: 'Khóa học',
-      href: '/list/teachers',
-    },
-    {
-      icon: 'code',
-      label: 'Code',
-      href: '/app/codes',
-    },
-    {
-      icon: 'paid',
-      label: 'Giao Dịch',
-      href: '/list/students',
-    },
-    {
-      icon: 'event',
-      label: 'Sự Kiện',
-      href: '/list/students',
-    },
-    {
-      icon: 'notifications',
-      label: 'Thông Báo',
-      href: '/list/students',
-    },
-    {
-      icon: 'question_answer',
-      label: 'Tư vấn',
-      href: '/list/students',
-    },
+    // {
+    //   icon: 'bookmarks',
+    //   label: 'Khóa học',
+    //   href: '/list/teachers',
+    // },
+    // {
+    //   icon: 'code',
+    //   label: 'Code',
+    //   href: '/app/codes',
+    // },
+    // {
+    //   icon: 'paid',
+    //   label: 'Giao Dịch',
+    //   href: '/list/students',
+    // },
+    // {
+    //   icon: 'event',
+    //   label: 'Sự Kiện',
+    //   href: '/list/students',
+    // },
+    // {
+    //   icon: 'notifications',
+    //   label: 'Thông Báo',
+    //   href: '/list/students',
+    // },
+    // {
+    //   icon: 'question_answer',
+    //   label: 'Tư vấn',
+    //   href: '/list/students',
+    // },
 
-    {
-      icon: 'manage_accounts',
-      label: 'Profile',
-      href: '/profile',
-    },
-    {
-      icon: 'settings',
-      label: 'Cài Đặt',
-      href: '/settings',
-    },
+    // {
+    //   icon: 'manage_accounts',
+    //   label: 'Profile',
+    //   href: '/profile',
+    // },
+    // {
+    //   icon: 'settings',
+    //   label: 'Cài Đặt',
+    //   href: '/settings',
+    // },
   ];
   isOpen: any = true;
 
